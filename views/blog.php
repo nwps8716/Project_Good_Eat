@@ -62,7 +62,7 @@
                  ?>
                 <div class="col-lg-12 text-center">
                     <ul class="pager">
-                        <li class="previous"><a href=?page= <?php echo $previous ?>> &larr; 上一頁</a>
+                        <li class="previous"><a href=?page=<?php echo $previous ?>> &larr; 上一頁</a>
                         </li>
                         <li>
                             <?php
@@ -71,7 +71,7 @@
                             } 
                             ?>
                         </li>
-                        <li class="next"><a href=?page= <?php echo $next ?>> 下一頁 &rarr;</a>
+                        <li class="next"><a href=?page=<?php echo $next ?>> 下一頁 &rarr;</a>
                         </li>
                     </ul>
                 </div>
