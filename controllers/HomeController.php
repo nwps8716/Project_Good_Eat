@@ -41,8 +41,6 @@ class HomeController extends Controller {
         $this->view("blog",$blogArray);
     }
     
-    
-    
     //顯示會員新增過的貼文
     function selfpost() {
         $this->model("CRUD");
