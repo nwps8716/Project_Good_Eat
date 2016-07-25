@@ -1,0 +1,201 @@
+[20-Jul-2016 07:06:49 UTC] PHP Warning:  include(class.crud.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/Project0726_MVC2/views/blog.php on line 4
+[20-Jul-2016 07:06:49 UTC] PHP Stack trace:
+[20-Jul-2016 07:06:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/Project0726_MVC2/views/blog.php:0
+[20-Jul-2016 07:06:49 UTC] PHP Warning:  include(): Failed opening 'class.crud.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/Project0726_MVC2/views/blog.php on line 4
+[20-Jul-2016 07:06:49 UTC] PHP Stack trace:
+[20-Jul-2016 07:06:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/Project0726_MVC2/views/blog.php:0
+[20-Jul-2016 07:06:49 UTC] PHP Fatal error:  Class 'CRUD' not found in /home/ubuntu/workspace/Project0726_MVC2/views/blog.php on line 5
+[20-Jul-2016 07:06:49 UTC] PHP Stack trace:
+[20-Jul-2016 07:06:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/Project0726_MVC2/views/blog.php:0
+[20-Jul-2016 07:06:51 UTC] PHP Warning:  include(class.crud.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/Project0726_MVC2/views/blog.php on line 4
+[20-Jul-2016 07:06:51 UTC] PHP Stack trace:
+[20-Jul-2016 07:06:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/Project0726_MVC2/views/blog.php:0
+[20-Jul-2016 07:06:51 UTC] PHP Warning:  include(): Failed opening 'class.crud.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/Project0726_MVC2/views/blog.php on line 4
+[20-Jul-2016 07:06:51 UTC] PHP Stack trace:
+[20-Jul-2016 07:06:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/Project0726_MVC2/views/blog.php:0
+[20-Jul-2016 07:06:51 UTC] PHP Fatal error:  Class 'CRUD' not found in /home/ubuntu/workspace/Project0726_MVC2/views/blog.php on line 5
+[20-Jul-2016 07:06:51 UTC] PHP Stack trace:
+[20-Jul-2016 07:06:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/Project0726_MVC2/views/blog.php:0
+[20-Jul-2016 15:13:32 Asia/Taipei] PHP Warning:  move_uploaded_file(img/test1.jpg): failed to open stream: No such file or directory in /home/ubuntu/workspace/Project0726_MVC2/controllers/dbcrud.php on line 74
+[20-Jul-2016 15:13:32 Asia/Taipei] PHP Stack trace:
+[20-Jul-2016 15:13:32 Asia/Taipei] PHP   1. {main}() /home/ubuntu/workspace/Project0726_MVC2/controllers/dbcrud.php:0
+[20-Jul-2016 15:13:32 Asia/Taipei] PHP   2. move_uploaded_file() /home/ubuntu/workspace/Project0726_MVC2/controllers/dbcrud.php:74
+[20-Jul-2016 15:13:32 Asia/Taipei] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/php0gQRl1' to 'img/test1.jpg' in /home/ubuntu/workspace/Project0726_MVC2/controllers/dbcrud.php on line 74
+[20-Jul-2016 15:13:32 Asia/Taipei] PHP Stack trace:
+[20-Jul-2016 15:13:32 Asia/Taipei] PHP   1. {main}() /home/ubuntu/workspace/Project0726_MVC2/controllers/dbcrud.php:0
+[20-Jul-2016 15:13:32 Asia/Taipei] PHP   2. move_uploaded_file() /home/ubuntu/workspace/Project0726_MVC2/controllers/dbcrud.php:74
+[20-Jul-2016 07:14:14 UTC] PHP Warning:  mysql_close() expects parameter 1 to be resource, null given in /home/ubuntu/workspace/Project0726_MVC2/models/class.crud.php on line 46
+[20-Jul-2016 07:14:14 UTC] PHP Stack trace:
+[20-Jul-2016 07:14:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/Project0726_MVC2/controllers/dbcrud.php:0
+[20-Jul-2016 07:14:14 UTC] PHP   2. CRUD->del() /home/ubuntu/workspace/Project0726_MVC2/controllers/dbcrud.php:97
+[20-Jul-2016 07:14:14 UTC] PHP   3. mysql_close() /home/ubuntu/workspace/Project0726_MVC2/models/class.crud.php:46
+[20-Jul-2016 15:15:18 Asia/Taipei] PHP Warning:  move_uploaded_file(../controllers/img/test1.jpg): failed to open stream: No such file or directory in /home/ubuntu/workspace/Project0726_MVC2/controllers/dbcrud.php on line 74
+[20-Jul-2016 15:15:18 Asia/Taipei] PHP Stack trace:
+[20-Jul-2016 15:15:18 Asia/Taipei] PHP   1. {main}() /home/ubuntu/workspace/Project0726_MVC2/controllers/dbcrud.php:0
+[20-Jul-2016 15:15:18 Asia/Taipei] PHP   2. move_uploaded_file() /home/ubuntu/workspace/Project0726_MVC2/controllers/dbcrud.php:74
+[20-Jul-2016 15:15:18 Asia/Taipei] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpk1zrgF' to '../controllers/img/test1.jpg' in /home/ubuntu/workspace/Project0726_MVC2/controllers/dbcrud.php on line 74
+[20-Jul-2016 15:15:18 Asia/Taipei] PHP Stack trace:
+[20-Jul-2016 15:15:18 Asia/Taipei] PHP   1. {main}() /home/ubuntu/workspace/Project0726_MVC2/controllers/dbcrud.php:0
+[20-Jul-2016 15:15:18 Asia/Taipei] PHP   2. move_uploaded_file() /home/ubuntu/workspace/Project0726_MVC2/controllers/dbcrud.php:74
+[20-Jul-2016 07:16:09 UTC] PHP Warning:  mysql_close() expects parameter 1 to be resource, null given in /home/ubuntu/workspace/Project0726_MVC2/models/class.crud.php on line 46
+[20-Jul-2016 07:16:09 UTC] PHP Stack trace:
+[20-Jul-2016 07:16:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/Project0726_MVC2/controllers/dbcrud.php:0
+[20-Jul-2016 07:16:09 UTC] PHP   2. CRUD->del() /home/ubuntu/workspace/Project0726_MVC2/controllers/dbcrud.php:97
+[20-Jul-2016 07:16:09 UTC] PHP   3. mysql_close() /home/ubuntu/workspace/Project0726_MVC2/models/class.crud.php:46
+[20-Jul-2016 07:17:28 UTC] PHP Warning:  mysql_close() expects parameter 1 to be resource, null given in /home/ubuntu/workspace/Project0726_MVC2/models/class.crud.php on line 46
+[20-Jul-2016 07:17:28 UTC] PHP Stack trace:
+[20-Jul-2016 07:17:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/Project0726_MVC2/controllers/dbcrud.php:0
+[20-Jul-2016 07:17:28 UTC] PHP   2. CRUD->del() /home/ubuntu/workspace/Project0726_MVC2/controllers/dbcrud.php:97
+[20-Jul-2016 07:17:28 UTC] PHP   3. mysql_close() /home/ubuntu/workspace/Project0726_MVC2/models/class.crud.php:46
+[20-Jul-2016 07:18:01 UTC] PHP Warning:  move_uploaded_file(img/test2.jpg): failed to open stream: No such file or directory in /home/ubuntu/workspace/Project0726_MVC2/controllers/dbcrud.php on line 104
+[20-Jul-2016 07:18:01 UTC] PHP Stack trace:
+[20-Jul-2016 07:18:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/Project0726_MVC2/controllers/dbcrud.php:0
+[20-Jul-2016 07:18:01 UTC] PHP   2. move_uploaded_file() /home/ubuntu/workspace/Project0726_MVC2/controllers/dbcrud.php:104
+[20-Jul-2016 07:18:01 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpQtUe7A' to 'img/test2.jpg' in /home/ubuntu/workspace/Project0726_MVC2/controllers/dbcrud.php on line 104
+[20-Jul-2016 07:18:01 UTC] PHP Stack trace:
+[20-Jul-2016 07:18:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/Project0726_MVC2/controllers/dbcrud.php:0
+[20-Jul-2016 07:18:01 UTC] PHP   2. move_uploaded_file() /home/ubuntu/workspace/Project0726_MVC2/controllers/dbcrud.php:104
+[20-Jul-2016 07:18:44 UTC] PHP Warning:  mysql_close() expects parameter 1 to be resource, null given in /home/ubuntu/workspace/Project0726_MVC2/models/class.crud.php on line 46
+[20-Jul-2016 07:18:44 UTC] PHP Stack trace:
+[20-Jul-2016 07:18:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/Project0726_MVC2/controllers/dbcrud.php:0
+[20-Jul-2016 07:18:44 UTC] PHP   2. CRUD->del() /home/ubuntu/workspace/Project0726_MVC2/controllers/dbcrud.php:97
+[20-Jul-2016 07:18:44 UTC] PHP   3. mysql_close() /home/ubuntu/workspace/Project0726_MVC2/models/class.crud.php:46
+[20-Jul-2016 07:20:47 UTC] PHP Warning:  mysql_close() expects parameter 1 to be resource, null given in /home/ubuntu/workspace/Project0726_MVC2/models/class.crud.php on line 46
+[20-Jul-2016 07:20:47 UTC] PHP Stack trace:
+[20-Jul-2016 07:20:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/Project0726_MVC2/controllers/dbcrud.php:0
+[20-Jul-2016 07:20:47 UTC] PHP   2. CRUD->del() /home/ubuntu/workspace/Project0726_MVC2/controllers/dbcrud.php:97
+[20-Jul-2016 07:20:47 UTC] PHP   3. mysql_close() /home/ubuntu/workspace/Project0726_MVC2/models/class.crud.php:46
+[20-Jul-2016 07:22:04 UTC] PHP Warning:  include(class.crud.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/Project0726_MVC2/views/showmessage.php on line 11
+[20-Jul-2016 07:22:04 UTC] PHP Stack trace:
+[20-Jul-2016 07:22:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/Project0726_MVC2/views/showmessage.php:0
+[20-Jul-2016 07:22:04 UTC] PHP Warning:  include(): Failed opening 'class.crud.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/Project0726_MVC2/views/showmessage.php on line 11
+[20-Jul-2016 07:22:04 UTC] PHP Stack trace:
+[20-Jul-2016 07:22:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/Project0726_MVC2/views/showmessage.php:0
+[20-Jul-2016 07:22:04 UTC] PHP Fatal error:  Class 'CRUD' not found in /home/ubuntu/workspace/Project0726_MVC2/views/showmessage.php on line 12
+[20-Jul-2016 07:22:04 UTC] PHP Stack trace:
+[20-Jul-2016 07:22:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/Project0726_MVC2/views/showmessage.php:0
+[20-Jul-2016 07:22:39 UTC] PHP Warning:  mysql_close() expects parameter 1 to be resource, null given in /home/ubuntu/workspace/Project0726_MVC2/models/class.crud.php on line 46
+[20-Jul-2016 07:22:39 UTC] PHP Stack trace:
+[20-Jul-2016 07:22:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/Project0726_MVC2/controllers/dbcrud.php:0
+[20-Jul-2016 07:22:39 UTC] PHP   2. CRUD->del() /home/ubuntu/workspace/Project0726_MVC2/controllers/dbcrud.php:97
+[20-Jul-2016 07:22:39 UTC] PHP   3. mysql_close() /home/ubuntu/workspace/Project0726_MVC2/models/class.crud.php:46
+[20-Jul-2016 07:27:29 UTC] PHP Warning:  mysql_close() expects parameter 1 to be resource, null given in /home/ubuntu/workspace/Project0726_MVC2/models/class.crud.php on line 46
+[20-Jul-2016 07:27:29 UTC] PHP Stack trace:
+[20-Jul-2016 07:27:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/Project0726_MVC2/controllers/dbcrud.php:0
+[20-Jul-2016 07:27:29 UTC] PHP   2. CRUD->del() /home/ubuntu/workspace/Project0726_MVC2/controllers/dbcrud.php:97
+[20-Jul-2016 07:27:29 UTC] PHP   3. mysql_close() /home/ubuntu/workspace/Project0726_MVC2/models/class.crud.php:46
+[20-Jul-2016 07:27:46 UTC] PHP Warning:  mysql_close() expects parameter 1 to be resource, null given in /home/ubuntu/workspace/Project0726_MVC2/models/class.crud.php on line 46
+[20-Jul-2016 07:27:46 UTC] PHP Stack trace:
+[20-Jul-2016 07:27:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/Project0726_MVC2/controllers/dbcrud.php:0
+[20-Jul-2016 07:27:46 UTC] PHP   2. CRUD->del() /home/ubuntu/workspace/Project0726_MVC2/controllers/dbcrud.php:97
+[20-Jul-2016 07:27:46 UTC] PHP   3. mysql_close() /home/ubuntu/workspace/Project0726_MVC2/models/class.crud.php:46
+[20-Jul-2016 07:27:47 UTC] PHP Warning:  mysql_close() expects parameter 1 to be resource, null given in /home/ubuntu/workspace/Project0726_MVC2/models/class.crud.php on line 46
+[20-Jul-2016 07:27:47 UTC] PHP Stack trace:
+[20-Jul-2016 07:27:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/Project0726_MVC2/controllers/dbcrud.php:0
+[20-Jul-2016 07:27:47 UTC] PHP   2. CRUD->del() /home/ubuntu/workspace/Project0726_MVC2/controllers/dbcrud.php:97
+[20-Jul-2016 07:27:47 UTC] PHP   3. mysql_close() /home/ubuntu/workspace/Project0726_MVC2/models/class.crud.php:46
+[20-Jul-2016 07:27:47 UTC] PHP Warning:  mysql_close() expects parameter 1 to be resource, null given in /home/ubuntu/workspace/Project0726_MVC2/models/class.crud.php on line 46
+[20-Jul-2016 07:27:47 UTC] PHP Stack trace:
+[20-Jul-2016 07:27:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/Project0726_MVC2/controllers/dbcrud.php:0
+[20-Jul-2016 07:27:47 UTC] PHP   2. CRUD->del() /home/ubuntu/workspace/Project0726_MVC2/controllers/dbcrud.php:97
+[20-Jul-2016 07:27:47 UTC] PHP   3. mysql_close() /home/ubuntu/workspace/Project0726_MVC2/models/class.crud.php:46
+[20-Jul-2016 07:27:47 UTC] PHP Warning:  mysql_close() expects parameter 1 to be resource, null given in /home/ubuntu/workspace/Project0726_MVC2/models/class.crud.php on line 46
+[20-Jul-2016 07:27:47 UTC] PHP Stack trace:
+[20-Jul-2016 07:27:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/Project0726_MVC2/controllers/dbcrud.php:0
+[20-Jul-2016 07:27:47 UTC] PHP   2. CRUD->del() /home/ubuntu/workspace/Project0726_MVC2/controllers/dbcrud.php:97
+[20-Jul-2016 07:27:47 UTC] PHP   3. mysql_close() /home/ubuntu/workspace/Project0726_MVC2/models/class.crud.php:46
+[20-Jul-2016 07:27:47 UTC] PHP Warning:  mysql_close() expects parameter 1 to be resource, null given in /home/ubuntu/workspace/Project0726_MVC2/models/class.crud.php on line 46
+[20-Jul-2016 07:27:47 UTC] PHP Stack trace:
+[20-Jul-2016 07:27:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/Project0726_MVC2/controllers/dbcrud.php:0
+[20-Jul-2016 07:27:47 UTC] PHP   2. CRUD->del() /home/ubuntu/workspace/Project0726_MVC2/controllers/dbcrud.php:97
+[20-Jul-2016 07:27:47 UTC] PHP   3. mysql_close() /home/ubuntu/workspace/Project0726_MVC2/models/class.crud.php:46
+[20-Jul-2016 07:27:47 UTC] PHP Warning:  mysql_close() expects parameter 1 to be resource, null given in /home/ubuntu/workspace/Project0726_MVC2/models/class.crud.php on line 46
+[20-Jul-2016 07:27:47 UTC] PHP Stack trace:
+[20-Jul-2016 07:27:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/Project0726_MVC2/controllers/dbcrud.php:0
+[20-Jul-2016 07:27:47 UTC] PHP   2. CRUD->del() /home/ubuntu/workspace/Project0726_MVC2/controllers/dbcrud.php:97
+[20-Jul-2016 07:27:47 UTC] PHP   3. mysql_close() /home/ubuntu/workspace/Project0726_MVC2/models/class.crud.php:46
+[20-Jul-2016 07:27:48 UTC] PHP Warning:  mysql_close() expects parameter 1 to be resource, null given in /home/ubuntu/workspace/Project0726_MVC2/models/class.crud.php on line 46
+[20-Jul-2016 07:27:48 UTC] PHP Stack trace:
+[20-Jul-2016 07:27:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/Project0726_MVC2/controllers/dbcrud.php:0
+[20-Jul-2016 07:27:48 UTC] PHP   2. CRUD->del() /home/ubuntu/workspace/Project0726_MVC2/controllers/dbcrud.php:97
+[20-Jul-2016 07:27:48 UTC] PHP   3. mysql_close() /home/ubuntu/workspace/Project0726_MVC2/models/class.crud.php:46
+[20-Jul-2016 07:27:48 UTC] PHP Warning:  mysql_close() expects parameter 1 to be resource, null given in /home/ubuntu/workspace/Project0726_MVC2/models/class.crud.php on line 46
+[20-Jul-2016 07:27:48 UTC] PHP Stack trace:
+[20-Jul-2016 07:27:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/Project0726_MVC2/controllers/dbcrud.php:0
+[20-Jul-2016 07:27:48 UTC] PHP   2. CRUD->del() /home/ubuntu/workspace/Project0726_MVC2/controllers/dbcrud.php:97
+[20-Jul-2016 07:27:48 UTC] PHP   3. mysql_close() /home/ubuntu/workspace/Project0726_MVC2/models/class.crud.php:46
+[20-Jul-2016 07:28:12 UTC] PHP Warning:  mysql_close() expects parameter 1 to be resource, null given in /home/ubuntu/workspace/Project0726_MVC2/models/class.crud.php on line 46
+[20-Jul-2016 07:28:12 UTC] PHP Stack trace:
+[20-Jul-2016 07:28:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/Project0726_MVC2/controllers/dbcrud.php:0
+[20-Jul-2016 07:28:12 UTC] PHP   2. CRUD->del() /home/ubuntu/workspace/Project0726_MVC2/controllers/dbcrud.php:97
+[20-Jul-2016 07:28:12 UTC] PHP   3. mysql_close() /home/ubuntu/workspace/Project0726_MVC2/models/class.crud.php:46
+[20-Jul-2016 07:30:02 UTC] PHP Warning:  mysql_close() expects parameter 1 to be resource, null given in /home/ubuntu/workspace/Project0726_MVC2/models/class.crud.php on line 46
+[20-Jul-2016 07:30:02 UTC] PHP Stack trace:
+[20-Jul-2016 07:30:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/Project0726_MVC2/controllers/dbcrud.php:0
+[20-Jul-2016 07:30:02 UTC] PHP   2. CRUD->del() /home/ubuntu/workspace/Project0726_MVC2/controllers/dbcrud.php:97
+[20-Jul-2016 07:30:02 UTC] PHP   3. mysql_close() /home/ubuntu/workspace/Project0726_MVC2/models/class.crud.php:46
+[20-Jul-2016 07:31:59 UTC] PHP Warning:  mysql_close() expects parameter 1 to be resource, null given in /home/ubuntu/workspace/Project0726_MVC2/models/class.crud.php on line 46
+[20-Jul-2016 07:31:59 UTC] PHP Stack trace:
+[20-Jul-2016 07:31:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/Project0726_MVC2/controllers/dbcrud.php:0
+[20-Jul-2016 07:31:59 UTC] PHP   2. CRUD->del() /home/ubuntu/workspace/Project0726_MVC2/controllers/dbcrud.php:97
+[20-Jul-2016 07:31:59 UTC] PHP   3. mysql_close() /home/ubuntu/workspace/Project0726_MVC2/models/class.crud.php:46
+[20-Jul-2016 07:32:41 UTC] PHP Warning:  mysql_close() expects parameter 1 to be resource, null given in /home/ubuntu/workspace/Project0726_MVC2/models/class.crud.php on line 46
+[20-Jul-2016 07:32:41 UTC] PHP Stack trace:
+[20-Jul-2016 07:32:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/Project0726_MVC2/controllers/dbcrud.php:0
+[20-Jul-2016 07:32:41 UTC] PHP   2. CRUD->del() /home/ubuntu/workspace/Project0726_MVC2/controllers/dbcrud.php:97
+[20-Jul-2016 07:32:41 UTC] PHP   3. mysql_close() /home/ubuntu/workspace/Project0726_MVC2/models/class.crud.php:46
+[20-Jul-2016 07:33:24 UTC] PHP Warning:  mysql_close() expects parameter 1 to be resource, null given in /home/ubuntu/workspace/Project0726_MVC2/models/class.crud.php on line 46
+[20-Jul-2016 07:33:24 UTC] PHP Stack trace:
+[20-Jul-2016 07:33:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/Project0726_MVC2/controllers/dbcrud.php:0
+[20-Jul-2016 07:33:24 UTC] PHP   2. CRUD->del() /home/ubuntu/workspace/Project0726_MVC2/controllers/dbcrud.php:97
+[20-Jul-2016 07:33:24 UTC] PHP   3. mysql_close() /home/ubuntu/workspace/Project0726_MVC2/models/class.crud.php:46
+[21-Jul-2016 14:14:35 UTC] PHP Fatal error:  Class 'Controller' not found in /home/ubuntu/workspace/Project0726_fake_MVC.1/controllers/HomeController.php on line 3
+[21-Jul-2016 14:14:35 UTC] PHP Stack trace:
+[21-Jul-2016 14:14:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/Project0726_fake_MVC.1/controllers/HomeController.php:0
+[21-Jul-2016 14:15:00 UTC] PHP Fatal error:  Class 'Controller' not found in /home/ubuntu/workspace/Project0726_fake_MVC.1/controllers/HomeController.php on line 3
+[21-Jul-2016 14:15:00 UTC] PHP Stack trace:
+[21-Jul-2016 14:15:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/Project0726_fake_MVC.1/controllers/HomeController.php:0
+[21-Jul-2016 14:15:03 UTC] PHP Fatal error:  Class 'Controller' not found in /home/ubuntu/workspace/Project0726_fake_MVC.1/controllers/HomeController.php on line 3
+[21-Jul-2016 14:15:03 UTC] PHP Stack trace:
+[21-Jul-2016 14:15:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/Project0726_fake_MVC.1/controllers/HomeController.php:0
+[21-Jul-2016 14:15:52 UTC] PHP Fatal error:  Class 'Controller' not found in /home/ubuntu/workspace/Project0726_fake_MVC.1/controllers/HomeController.php on line 3
+[21-Jul-2016 14:15:52 UTC] PHP Stack trace:
+[21-Jul-2016 14:15:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/Project0726_fake_MVC.1/controllers/HomeController.php:0
+[21-Jul-2016 14:16:00 UTC] PHP Fatal error:  Class 'Controller' not found in /home/ubuntu/workspace/Project0726_fake_MVC.1/controllers/HomeController.php on line 3
+[21-Jul-2016 14:16:00 UTC] PHP Stack trace:
+[21-Jul-2016 14:16:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/Project0726_fake_MVC.1/controllers/HomeController.php:0
+[21-Jul-2016 14:19:49 UTC] PHP Fatal error:  Class 'Controller' not found in /home/ubuntu/workspace/Project0726_fake_MVC.1/controllers/HomeController.php on line 3
+[21-Jul-2016 14:19:49 UTC] PHP Stack trace:
+[21-Jul-2016 14:19:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/Project0726_fake_MVC.1/controllers/HomeController.php:0
+[21-Jul-2016 14:42:01 UTC] PHP Fatal error:  Class 'Controller' not found in /home/ubuntu/workspace/Project0726_fake_MVC.1/controllers/HomeController.php on line 3
+[21-Jul-2016 14:42:01 UTC] PHP Stack trace:
+[21-Jul-2016 14:42:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/Project0726_fake_MVC.1/controllers/HomeController.php:0
+[21-Jul-2016 14:42:13 UTC] PHP Fatal error:  Class 'Controller' not found in /home/ubuntu/workspace/Project0726_fake_MVC.1/controllers/HomeController.php on line 3
+[21-Jul-2016 14:42:13 UTC] PHP Stack trace:
+[21-Jul-2016 14:42:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/Project0726_fake_MVC.1/controllers/HomeController.php:0
+[21-Jul-2016 14:42:55 UTC] PHP Fatal error:  Class 'Controller' not found in /home/ubuntu/workspace/Project0726_fake_MVC.1/controllers/HomeController.php on line 3
+[21-Jul-2016 14:42:55 UTC] PHP Stack trace:
+[21-Jul-2016 14:42:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/Project0726_fake_MVC.1/controllers/HomeController.php:0
+[22-Jul-2016 00:23:51 UTC] PHP Warning:  include_once(../models/class.crud.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/Project0726_fake_MVC.1/controllers/dbcrud.php on line 2
+[22-Jul-2016 00:23:51 UTC] PHP Stack trace:
+[22-Jul-2016 00:23:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/Project0726_fake_MVC.1/controllers/dbcrud.php:0
+[22-Jul-2016 00:23:51 UTC] PHP Warning:  include_once(): Failed opening '../models/class.crud.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/Project0726_fake_MVC.1/controllers/dbcrud.php on line 2
+[22-Jul-2016 00:23:51 UTC] PHP Stack trace:
+[22-Jul-2016 00:23:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/Project0726_fake_MVC.1/controllers/dbcrud.php:0
+[22-Jul-2016 00:23:51 UTC] PHP Fatal error:  Class 'CRUD' not found in /home/ubuntu/workspace/Project0726_fake_MVC.1/controllers/dbcrud.php on line 3
+[22-Jul-2016 00:23:51 UTC] PHP Stack trace:
+[22-Jul-2016 00:23:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/Project0726_fake_MVC.1/controllers/dbcrud.php:0
+[22-Jul-2016 00:27:57 UTC] PHP Fatal error:  Class 'Controller' not found in /home/ubuntu/workspace/Project0726_fake_MVC.1/controllers/HomeController.php on line 3
+[22-Jul-2016 00:27:57 UTC] PHP Stack trace:
+[22-Jul-2016 00:27:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/Project0726_fake_MVC.1/controllers/HomeController.php:0
+[22-Jul-2016 00:29:10 UTC] PHP Fatal error:  Class 'Controller' not found in /home/ubuntu/workspace/Project0726_fake_MVC.1/controllers/HomeController.php on line 3
+[22-Jul-2016 00:29:10 UTC] PHP Stack trace:
+[22-Jul-2016 00:29:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/Project0726_fake_MVC.1/controllers/HomeController.php:0
+[22-Jul-2016 05:38:33 UTC] PHP Warning:  unlink(../views/img/): Is a directory in /home/ubuntu/workspace/Project0726_fake_MVC.1/controllers/dbcrud.php on line 93
+[22-Jul-2016 05:38:33 UTC] PHP Stack trace:
+[22-Jul-2016 05:38:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/Project0726_fake_MVC.1/controllers/dbcrud.php:0
+[22-Jul-2016 05:38:33 UTC] PHP   2. unlink() /home/ubuntu/workspace/Project0726_fake_MVC.1/controllers/dbcrud.php:93
+[22-Jul-2016 05:39:33 UTC] PHP Warning:  unlink(../views/img/): Is a directory in /home/ubuntu/workspace/Project0726_fake_MVC.1/controllers/dbcrud.php on line 93
+[22-Jul-2016 05:39:33 UTC] PHP Stack trace:
+[22-Jul-2016 05:39:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/Project0726_fake_MVC.1/controllers/dbcrud.php:0
+[22-Jul-2016 05:39:33 UTC] PHP   2. unlink() /home/ubuntu/workspace/Project0726_fake_MVC.1/controllers/dbcrud.php:93
