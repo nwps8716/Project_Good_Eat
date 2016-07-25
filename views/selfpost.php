@@ -31,8 +31,8 @@
                     <?php 
                     if($_SESSION['username'] == $selfArray['user'][$i]) {
                         echo $selfArray['title'][$i]."<br>";
-                        echo '<a href="modify?cont='.htmlspecialchars($selfArray['content'][$i]).'&tit='.$selfArray['title'][$i].'&img='.$selfArray['imgfile'][$i].'&id='.$selfArray['ID'][$i].'";>修改</a>'." ";
-                        echo '<a href="del?img='.$selfArray['imgfile'][$i].'&id='.$selfArray['ID'][$i].'";>刪除</a>' . "<hr>";
+                        echo '<a href="/Project_Good_Eat/Article/modify?cont='.htmlspecialchars($selfArray['content'][$i]).'&tit='.$selfArray['title'][$i].'&img='.$selfArray['imgfile'][$i].'&id='.$selfArray['ID'][$i].'";>修改</a>'." ";
+                        echo '<a href="/Project_Good_Eat/Article/del?img='.$selfArray['imgfile'][$i].'&id='.$selfArray['ID'][$i].'";>刪除</a>' . "<hr>";
                     }
                     ?>
                     </p>

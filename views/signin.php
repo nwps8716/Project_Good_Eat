@@ -28,7 +28,7 @@
                 <div class="test3">
                     <div class="form-login">
                     <h4>welcome good eat</h4>
-                <form name="form" method="post" action="signin">
+                <form name="form" method="post" action="/Project_Good_Eat/Member/signin">
                     <input type="text" name="id" class="form-control input-sm chat-input" placeholder="username" />
                     </br>
                     <input type="password" name="pw" class="form-control input-sm chat-input" placeholder="password" />
@@ -50,7 +50,7 @@
     <!-- /.container -->
 
     <?php include "footer.php"?>
-
+    
 </body>
 
 </html>

@@ -57,7 +57,7 @@
                     </table>
                 </div>
                 <div style="text-align:center;">
-                    <form action="uploadmessage" name="reg" method="post" enctype="multipart/form-data">
+                    <form action="/Project_Good_Eat/Article/uploadmessage" name="reg" method="post" enctype="multipart/form-data">
                     	請輸入留言內容:
                     	<br><textarea name="message" rows="5" cols="50"></textarea><br>
                     	<input type="hidden" name="blogID" value="<?php echo $showArray["id"][0]; ?>">

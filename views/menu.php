@@ -28,28 +28,28 @@ $date = date("Y.m.d");
                         <a><?php echo $_SESSION["username"]?></a>
                     </li>
                     <li>
-                        <a href="index">首頁</a>
+                        <a href="/Project_Good_Eat/Home/index">首頁</a>
                     </li>
                     <li>
-                        <a href="blog">好食賞文</a>
+                        <a href="/Project_Good_Eat/Home/blog">好食賞文</a>
                     </li>
                     <li>
                         <?php if (!isset($_SESSION["username"])) { ?>
-                        <a href="member">註冊會員</a>
+                        <a href="/Project_Good_Eat/Member/member">註冊會員</a>
                         <?php } else { ?>
-                        <a href="upload">新增貼文</a>
+                        <a href="/Project_Good_Eat/Article/upload">新增貼文</a>
                         <?php } ?>
                     </li>
                     <li>
                         <?php if (isset($_SESSION["username"])) { ?>
-                        <a href="selfpost">修改貼文</a>
+                        <a href="/Project_Good_Eat/Home/selfpost">修改貼文</a>
                         <?php } ?>
                     </li>
                     <li>
                         <?php if (!isset($_SESSION["username"])) { ?>
-      	                <a href="signin">會員登入<br></a>
+      	                <a href="/Project_Good_Eat/Member/signin">會員登入<br></a>
       	                <?php } else { ?>
-      	                <a href="logout?signout=1">登出<br></a>
+      	                <a href="/Project_Good_Eat/Member/logout?signout=1">登出<br></a>
       	                <?php } ?>
                     </li>
                 </ul>
